@@ -57,7 +57,7 @@ An ERD model was created for the project which incorporates all of the attribute
 
 ## 5. CRUD Execution
 
-***As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases.*** <br>
+As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases. <br>
 
 <details>
 <summary>Click for the direct Postman requests</summary>
@@ -79,7 +79,7 @@ shorturl.at/suwRT
 
 ### Customer Database
 
-***The CRUD operations carried out for the Customer database can be seen below. Expand each of the operations to see snapshots of the functions in action.***<br>
+The CRUD operations carried out for the Customer database can be seen below. Expand each of the operations to see snapshots of the functions in action.<br>
 
 #### Create/Add a new customer <br> 
 <details>
@@ -121,7 +121,7 @@ shorturl.at/suwRT
 
 ### Booking Database
 
-***The CRUD operations carried out for the Booking database can be seen below. Expand each of the operations to see snapshots of the functions in action.***<br>
+The CRUD operations carried out for the Booking database can be seen below. Expand each of the operations to see snapshots of the functions in action.<br>
 
 #### Create/Add a new Booking <br> 
 <details>
