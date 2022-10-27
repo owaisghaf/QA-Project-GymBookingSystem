@@ -33,11 +33,14 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 
 ## 3. Project Structure
 
-***The structure of the project can be seen below***
+Both a desciptive and visual representative of the project structure can be seen below.
 
 1. Entities were created for both Customer and Bookings as data will need to be inputted, read, updated and deleted from the subsequent tables represented by the two classes.
 2. Controllers were then created for both in order for the user to access the Spring application externally via HTTP requests. This will later be used to 
-3. 
+3. Services essentially contain the main logic of a Spring boot application and in this case it takes the relevant CRUD functionality contained in the controllers and implements that logic.
+4. Repositories provide the methods in order for the program to interact with the Customer and Booking databases.
+5. Data Transfer Objects (DTO) were created for both in order to create a set structure for the data which is provided by the API for both customers and bookings.
+6. Custom Exceptions were created for both customer and booking which will throw an exception whenever a customer or booking that doesn't exist is attempted to be accessed.
  
 <details>
 <summary>Click to see project structure</summary>
