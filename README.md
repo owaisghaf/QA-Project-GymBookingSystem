@@ -46,6 +46,7 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 ## 4. Database Structure - ERD Model
 
 An ERD model was created for the project which incorporates all of the attributes for both the Customer and Booking classes. It demonstrates visually the one to many relationship between Customer and Booking, outlining the primary keys and unique values.<br>
+<br>
 
 <details>
 <summary>Click to see Database structure</summary>
@@ -59,6 +60,8 @@ An ERD model was created for the project which incorporates all of the attribute
 
 As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases. <br>
 
+<br>
+
 <details>
 <summary>Click for the direct Postman requests</summary>
 
@@ -66,7 +69,6 @@ shorturl.at/suwRT
 
 </details>
 
-<br> 
 
 <details>
 <summary>Alternatively click to see a picture of the Postman requests</summary>
@@ -81,11 +83,14 @@ shorturl.at/suwRT
 
 The CRUD operations carried out for the Customer database can be seen below. Expand each of the operations to see snapshots of the functions in action.<br>
 
+<br>
+
 #### Create/Add a new customer <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width="550" src=imgs/Customer-CreateAdd.jpg>
 </details>
+
 
 #### Read a specific customer's information using their unique id <br> 
 <details>
@@ -93,11 +98,13 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 <img width="550" src=imgs/Customer-ReadByID.jpg>
 </details>
 
+
 #### Read a specific customer's information using their name <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width="550" src=imgs/Customer-ReadByName.jpg>
 </details>
+
 
 #### Read all customer information <br> 
 <details>
@@ -105,11 +112,13 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 <img width="550" src=imgs/Customer-ReadallCustomers.jpg>
 </details>
 
+
 #### Update customer information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width="550" src=imgs/Customer-Update.jpg>
 </details>
+
 
 #### Delete customer information using their unique id <br> 
 <details>
@@ -123,11 +132,14 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 
 The CRUD operations carried out for the Booking database can be seen below. Expand each of the operations to see snapshots of the functions in action.<br>
 
+<br>
+
 #### Create/Add a new Booking <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width="550" src=imgs/Booking-CreateAdd.jpg>
 </details>
+
 
 #### Read Booking information using the unique booking id <br> 
 <details>
@@ -135,11 +147,13 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 <img width="550" src=imgs/Booking-ReadByID.jpg>
 </details>
 
+
 #### Read Booking information using the booking type <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width="550" src=imgs/Booking-ReadByType.jpg>
 </details>
+
 
 #### Read all Booking information <br> 
 <details>
@@ -147,11 +161,13 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 <img width="550" src=imgs/Booking-ReadAllBookings.jpg>
 </details>
 
+
 #### Update Booking information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width="550" src=imgs/Booking-Update.jpg>
 </details>
+
 
 #### Delete Booking information using the unique booking id <br> 
 <details>
@@ -182,12 +198,14 @@ All unit tests were completed and passed for the booking service layer.
 </details>
 
 #### Booking Controller integration test <br>
+
 <details>
 <summary>Click for an image of the execution</summary>
 <img width = 550 src=[------------------------------]> <br>
 </details>
 
 #### Customer Controller integration test <br>
+
 <details>
 <summary>Click for an image of the execution</summary>
 <img width = 550 src=[------------------------------]> <br>
