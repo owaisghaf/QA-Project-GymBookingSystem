@@ -11,7 +11,7 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 
 ## 2. Application Features
 
-***Customer***
+#### Customer
 
 * Create new customers <br>
 * Read a specific customer's information using a unique id <br>
@@ -21,7 +21,7 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 * Delete customer using unique id <br>
 
 
-***Booking***
+#### Booking
 
 * Create new bookings <br>
 * Read a specific booking's information using a unique id <br>
@@ -35,8 +35,10 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 
 ***The structure of the project can be seen below***
 
-Entities were created for both 
-
+1. Entities were created for both Customer and Bookings as data will need to be inputted, read, updated and deleted from the subsequent tables represented by the two classes.
+2. Controllers were then created for both in order for the user to access the Spring application externally via HTTP requests. This will later be used to 
+3. 
+ 
 <details>
 <summary>Click to see project structure</summary>
 <p align="center">
