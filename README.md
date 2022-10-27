@@ -1,12 +1,12 @@
 # Gym Services Booking Application
 ## Mohammed Owais Ghafoor
 
-### 1. Project Introduction
+###1. Project Introduction
 The Gym Services Booking Application allows for different customers to create multiple bookings for gym services. It utilises CRUD functionality where 
 the 'customer' has a one-to-many relationship with 'Booking'. <br>
 <br>
 
-** 2. Application Features**
+**2. Application Features
 
 ***Customer***
 
@@ -26,8 +26,10 @@ the 'customer' has a one-to-many relationship with 'Booking'. <br>
 * read all booking information for a specific type of booking <br>
 * read all booking information <br>
 
-** 3. Project Structure**
-***The structure of the project can be seen below***
+**3. Project Structure
+
+***The structure of the project is outlined below***
+
 <p align="center">
 <img width="650" src=imgs/Project-Structure.jpg>
 </p>
