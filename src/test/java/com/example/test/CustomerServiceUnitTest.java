@@ -14,13 +14,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.example.persistence.domain.Booking;
 import com.example.persistence.domain.Customer;
-import com.example.persistence.repository.BookingRepository;
 import com.example.persistence.repository.CustomerRepository;
-import com.example.rest.dto.BookingDTO;
 import com.example.rest.dto.CustomerDTO;
-import com.example.service.BookingService;
 import com.example.service.CustomerService;
 
 @SpringBootTest

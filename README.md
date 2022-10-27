@@ -34,10 +34,10 @@ This will allow the gym itself to access the database and Create, Read, Update o
 ***The structure of the project can be seen below***
 <br>
 <p align="center">
-<img width="650" src=imgs/Project-Structure.jpg>
+<img width="550" src=imgs/Project-Structure.jpg>
 </p>
 
-## 4. Database Structure - ERD
+## 4. Database Structure - ERD Model
 
 <details>
 <summary>"Click to expand"</summary>
@@ -47,7 +47,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 <br>
 <p align="center">
-<img width="650" src=imgs/Database-Diagram.jpg>
+<img width="550" src=imgs/Database-Diagram.jpg>
 </p>
 
 ## 5. CRUD Execution
@@ -70,37 +70,37 @@ shorturl.at/suwRT
 #### Create/Add a new customer <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Customer-CreateAdd.jpg>
+<img width="550" src=imgs/Customer-CreateAdd.jpg>
 </details>
 
 #### Read a specific customer's information using their unique id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Customer-ReadByID.jpg>
+<img width="550" src=imgs/Customer-ReadByID.jpg>
 </details>
 
 #### Read a specific customer's information using their name <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Customer-ReadByName.jpg>
+<img width="550" src=imgs/Customer-ReadByName.jpg>
 </details>
 
 #### Read all customer information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Customer-ReadallCustomers.jpg>
+<img width="550" src=imgs/Customer-ReadallCustomers.jpg>
 </details>
 
 #### Update customer information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Customer-Update.jpg>
+<img width="550" src=imgs/Customer-Update.jpg>
 </details>
 
 #### Delete customer information using their unique id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Customer-DeleteByID.jpg>
+<img width="550" src=imgs/Customer-DeleteByID.jpg>
 </details>
 
 <br> 
@@ -112,63 +112,76 @@ shorturl.at/suwRT
 #### Create/Add a new Booking <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Booking-CreateAdd.jpg>
+<img width="550" src=imgs/Booking-CreateAdd.jpg>
 </details>
 
 #### Read Booking information using the unique booking id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Booking-ReadByID.jpg>
+<img width="550" src=imgs/Booking-ReadByID.jpg>
 </details>
 
 #### Read Booking information using the booking type <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Booking-ReadByType.jpg>
+<img width="550" src=imgs/Booking-ReadByType.jpg>
 </details>
 
 #### Read all Booking information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Booking-ReadAllBookings.jpg>
+<img width="550" src=imgs/Booking-ReadAllBookings.jpg>
 </details>
 
 #### Update Booking information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Booking-Update.jpg>
+<img width="550" src=imgs/Booking-Update.jpg>
 </details>
 
 #### Delete Booking information using the unique booking id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width="600" src=imgs/Booking-DeleteByID.jpg>
+<img width="550" src=imgs/Booking-DeleteByID.jpg>
 </details>
 
 <br>
 
 ## 6. Testing
 
-#### Service layer unit tests: Customer <br> 
+#### Customer: Service layer unit tests <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width = 600 src=[------------------------------]> <br>
+<img width = 550 src=imgs/CustomerServiceUnitTest.jpg> <br>
 </details>
 
-#### Service layer unit tests: Booking <br> 
+#### Booking: Service layer unit tests <br> 
 <details>
 <summary>Click for an image of the execution</summary>
-<img width = 600 src=[------------------------------]> <br>
+<img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
 </details>
 
 #### Booking Controller integration test <br>
 <details>
 <summary>Click for an image of the execution</summary>
-<img width = 600 src=[------------------------------]> <br>
+<img width = 550 src=[------------------------------]> <br>
 </details>
 
 #### Customer Controller integration test <br>
 <details>
 <summary>Click for an image of the execution</summary>
-<img width = 600 src=[------------------------------]> <br>
+<img width = 550 src=[------------------------------]> <br>
 </details>
+
+## 7. Tools Utilised
+
+* Java 8.0 <br>
+* Spring Boot 2.7.0 <br>
+* MySQL 8.0.30 <br>
+* Maven 4.0.0 <br>
+* Postman 10.0.38 <br>
+* Github <br>
+* Git Bash <br>
+
+## 8. Reflection and Future Outlook
+
