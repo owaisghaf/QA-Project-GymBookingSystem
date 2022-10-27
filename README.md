@@ -1,13 +1,13 @@
 # Gym Services Booking Application
 ### Created by Mohammed Owais Ghafoor
 
-### 1. Project Introduction
+## 1. Project Introduction
 
 The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br> This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
 This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
-### 2. Application Features
+## 2. Application Features
 
 ***Customer***
 
@@ -29,7 +29,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 * delete booking using unique id <br>
 
 
-### 3. Project Structure
+## 3. Project Structure
 
 ***The structure of the project can be seen below***
 <br>
@@ -37,7 +37,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 <img width="650" src=imgs/Project-Structure.jpg>
 </p>
 
-### 4. Database Structure - ERD
+## 4. Database Structure - ERD
 
 <details>
 <summary>"Click to expand"</summary>
@@ -50,7 +50,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 <img width="650" src=imgs/Database-Diagram.jpg>
 </p>
 
-### 5. CRUD Execution
+## 5. CRUD Execution
 
 As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. These have all been tested to work perfectly with results shown below.
 
@@ -61,7 +61,7 @@ shorturl.at/suwRT
 
 </details>
 
-***Customer Database***
+### Customer Database
 <br> 
 
 #### Create/Add a new customer <br> 
@@ -101,10 +101,11 @@ shorturl.at/suwRT
 </details>
 
 <br> 
+
+### Booking Database
+
 <br> 
-***Booking Database***
-<br> 
-<br> 
+
 ##### Create/Add a new Booking <br> <img width="600" src=imgs/Booking-CreateAdd.jpg>
 ##### Read Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-ReadByID.jpg>
 ##### Read Booking information using the booking type <br> <img width="600" src=imgs/Booking-ReadByType.jpg>
