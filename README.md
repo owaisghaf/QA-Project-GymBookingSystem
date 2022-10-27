@@ -33,22 +33,27 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 ***The structure of the project can be seen below***
 <br>
+
+<details>
+<summary>Click to see project structure</summary>
 <p align="center">
 <img width="550" src=imgs/Project-Structure.jpg>
 </p>
+</details>
 
 ## 4. Database Structure - ERD Model
 
 <details>
 <summary>"Click to expand"</summary>
-
-
 </details>
 
+<details>
+<summary>Click to see Database structure</summary>
 <br>
 <p align="center">
 <img width="550" src=imgs/Database-Diagram.jpg>
 </p>
+</details>
 
 ## 5. CRUD Execution
 
