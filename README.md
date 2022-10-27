@@ -3,8 +3,8 @@
 
 ## 1. Project Introduction
 
-The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br> This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
-This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
+***The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br> This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
+This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.***<br>
 <br>
 
 ## 2. Application Features
@@ -52,7 +52,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 ## 5. CRUD Execution
 
-As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases.
+***As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases.*** <br>
 
 <details>
 <summary>Click for the direct Postman requests</summary>
@@ -61,9 +61,11 @@ shorturl.at/suwRT
 
 </details>
 
+<br> 
+
 ### Customer Database
 
-The CRUD operations carried out for the Customer database can be seen below. Expand each of the operations to see snapshots of the functions in action<br>
+***The CRUD operations carried out for the Customer database can be seen below. Expand each of the operations to see snapshots of the functions in action.***<br>
 
 #### Create/Add a new customer <br> 
 <details>
@@ -105,7 +107,7 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 
 ### Booking Database
 
-The CRUD operations carried out for the Booking database can be seen below. Expand each of the operations to see snapshots of the functions in action<br>
+***The CRUD operations carried out for the Booking database can be seen below. Expand each of the operations to see snapshots of the functions in action.***<br>
 
 #### Create/Add a new Booking <br> 
 <details>
@@ -143,3 +145,30 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 <img width="600" src=imgs/Booking-DeleteByID.jpg>
 </details>
 
+<br>
+
+## 6. Testing
+
+#### Service layer unit tests: User <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width = 600 src=[------------------------------]> <br>
+</details>
+
+#### Service layer unit tests: Account <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width = 600 src=[------------------------------]> <br>
+</details>
+
+#### Booking Controller integration test <br>
+<details>
+<summary>Click for an image of the execution</summary>
+<img width = 600 src=[------------------------------]> <br>
+</details>
+
+#### Customer Controller integration test <br>
+<details>
+<summary>Click for an image of the execution</summary>
+<img width = 600 src=[------------------------------]> <br>
+</details>

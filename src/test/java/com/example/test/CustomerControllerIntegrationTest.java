@@ -40,7 +40,7 @@ public class CustomerControllerIntegrationTest {
 	@Autowired
 	private ObjectMapper mapper;
 	
-	private final Customer TEST_CUSTOMER = new Customer(1L,"Owais Ghafoor","owais.ghaf@gmail.com",447591204221L,"OG","1234","31/05/1997","Birmingham", null);
+	private final Customer TEST_CUSTOMER = new Customer(null,"Owais Ghafoor","owais.ghaf@gmail.com",447591204221L,"OG","1234","31/05/1997","Birmingham", null);
 
 	private final Customer TEST_SAVED_CUSTOMER = new Customer(1L,"Owais Ghafoor","owais.ghaf@gmail.com",447591204221L,"OG","1234","31/05/1997","Birmingham",null);
 
