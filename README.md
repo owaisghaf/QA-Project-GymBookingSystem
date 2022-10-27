@@ -12,27 +12,21 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 ***Customer***
 
-<details>
-<summary>"Click to expand customer features"</summary>
 * Create/add new customer <br>
 * update customer information <br>
 * delete customer using unique id <br>
 * read a specific customer's information using a unique id <br>
 * read a specific customer's information using their name <br>
 * read all customer information <br>
-</details>
 
 ***Booking***
 
-<details>
-<summary>"Click to expand booking features"</summary>
 * Create/add new booking <br>
 * update booking information <br>
 * delete booking using unique id <br>
 * read a specific booking's information using a unique id <br>
 * read all booking information for a specific type of booking <br>
 * read all booking information <br>
-</details>
 
 ### 3. Project Structure
 
@@ -46,11 +40,23 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 <details>
 <summary>"Click to expand"</summary>
-this is hidden
+
+
 </details>
 
 <br>
 <p align="center">
 <img width="650" src=imgs/Database-Diagram.jpg>
 </p>
+
+### 5. CRUD Execution
+
+As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. These have all been tested to work perfectly with results shown below.
+
+<details>
+<summary>"Click to access direct Postman requests"</summary>
+
+shorturl.at/suwRT
+
+</details>
 
