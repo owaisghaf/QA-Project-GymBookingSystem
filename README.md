@@ -63,36 +63,40 @@ shorturl.at/suwRT
 
 ***Customer Database***
 <br> 
-<br> 
-##### Create/Add a new customer <br> 
+
+#### Create/Add a new customer <br> 
 <details>
-<summary>Click for the direct Postman requests</summary>
+<summary>Click for an image of the execution</summary>
 <img width="600" src=imgs/Customer-CreateAdd.jpg>
 </details>
 
-##### Read a specific customer's information using their unique id <br> 
+#### Read a specific customer's information using their unique id <br> 
 <details>
-<summary>Click for an image of the execuation</summary>
+<summary>Click for an image of the execution</summary>
 <img width="600" src=imgs/Customer-ReadByID.jpg>
 </details>
-##### Read a specific customer's information using their name <br> 
+
+#### Read a specific customer's information using their name <br> 
 <details>
-<summary>Click for an image of the execuation</summary>
+<summary>Click for an image of the execution</summary>
 <img width="600" src=imgs/Customer-ReadByName.jpg>
 </details>
-##### Read all customer information <br> 
+
+#### Read all customer information <br> 
 <details>
-<summary>Click for an image of the execuation</summary>
+<summary>Click for an image of the execution</summary>
 <img width="600" src=imgs/Customer-ReadallCustomers.jpg>
 </details>
-##### Update customer information <br> 
+
+#### Update customer information <br> 
 <details>
-<summary>Click for an image of the execuation</summary>
+<summary>Click for an image of the execution</summary>
 <img width="600" src=imgs/Customer-Update.jpg>
 </details>
-##### Delete customer information using their unique id <br> 
+
+#### Delete customer information using their unique id <br> 
 <details>
-<summary>Click for an image of the execuation</summary>
+<summary>Click for an image of the execution</summary>
 <img width="600" src=imgs/Customer-DeleteByID.jpg>
 </details>
 
