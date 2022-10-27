@@ -35,6 +35,8 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 
 ***The structure of the project can be seen below***
 
+Entities were created for both 
+
 <details>
 <summary>Click to see project structure</summary>
 <p align="center">
@@ -42,9 +44,11 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 </p>
 </details>
 
+<br>
+
 ## 4. Database Structure - ERD Model
 
-An ERD model was created for the project which incorporates all of the attributes for both the Customer and Booking classes. It demonstrates visually the one to many relationship between Customer and Booking, outlining the primary keys and unique values.<br>
+An ERD model was created for the project which incorporates all of the attributes for both the Customer and Booking Entities. It demonstrates visually the one to many relationship between Customer and Booking, outlining the primary keys and unique values.<br>
 <br>
 
 <details>
@@ -207,6 +211,8 @@ All unit tests were completed and passed for the booking service layer.
 <img width = 550 src=[------------------------------]> <br>
 </details>
 
+<br>
+
 ## 7. Tools Utilised
 
 * Java 8.0 <br>
@@ -217,5 +223,8 @@ All unit tests were completed and passed for the booking service layer.
 * Github <br>
 * Git Bash <br>
 
+<br>
+
 ## 8. Reflection and Future Outlook
+
 
