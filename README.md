@@ -6,29 +6,29 @@
 
 The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym such as: PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT).
 This is a Back-End system which was created using Spring Boot.  This system can be linked to a Front-End interface in order to make API calls to customer and booking databases, allowing for a more efficient and simplified user experience.  
-It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
+It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. This aplication will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
 ## 2. Application Features
 
 ***Customer***
 
-* Create/add new customer <br>
-* read a specific customer's information using a unique id <br>
-* read a specific customer's information using their name <br>
-* read all customer information <br>
-* update customer information <br>
-* delete customer using unique id <br>
+* Create new customers <br>
+* Read a specific customer's information using a unique id <br>
+* Read a specific customer's information using their name <br>
+* Read all customer information <br>
+* Update customer information <br>
+* Delete customer using unique id <br>
 
 
 ***Booking***
 
-* Create/add new booking <br>
-* read a specific booking's information using a unique id <br>
-* read all booking information for a specific type of booking <br>
-* read all booking information <br>
-* update booking information <br>
-* delete booking using unique id <br>
+* Create new bookings <br>
+* Read a specific booking's information using a unique id <br>
+* Read all booking information for a specific type of booking <br>
+* Read all booking information <br>
+* Update booking information <br>
+* Delete booking using unique id <br>
 
 
 ## 3. Project Structure
@@ -63,6 +63,15 @@ An ERD model was created for the project which incorporates all of the attribute
 <summary>Click for the direct Postman requests</summary>
 
 shorturl.at/suwRT
+
+</details>
+
+<br> 
+
+<details>
+<summary>Alternatively click to see a picture of the Postman requests</summary>
+
+<img width="550" src=imgs/AllRequests.jpg>
 
 </details>
 
