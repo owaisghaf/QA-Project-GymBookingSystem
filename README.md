@@ -69,7 +69,7 @@ As outlined previously in section 2 a number of features are available within th
 <details>
 <summary>Click for the direct Postman requests</summary>
 
-shorturl.at/suwRT
+Click to access the [Postman requests](shorturl.at/suwRT)
 
 </details>
 
