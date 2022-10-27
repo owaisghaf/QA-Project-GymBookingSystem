@@ -31,6 +31,7 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 * Delete booking using unique id <br>
 <br>
 
+
 ## 3. Project Structure
 
 Both a descriptive and visual representative of the project structure can be seen below.
@@ -75,6 +76,15 @@ An ERD model was created for the project which incorporates all of the attribute
 <img width="550" src=imgs/Database-Diagram.jpg>
 </p>
 </details>
+
+## 5. How to Execute the project
+
+* Ensure that port 8080 is free
+* Using MySQL create a database with the name ***'gymbooking'*** running on port 3306. <br>
+(These ports can all be configured in the application properties file located in src/main/resources/application.properties)
+* Always run the project as a Spring Boot App
+* The HTTP requests (CRUD functionality) can now be created and communicated to the database. One way to do this is through the Postman API. <br>
+Examples are shown below.
 
 ## 5. CRUD Execution
 
