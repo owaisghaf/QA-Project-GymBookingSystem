@@ -29,12 +29,11 @@ It utilises CRUD functionality where the 'customer' has a one-to-many relationsh
 * Read all booking information <br>
 * Update booking information <br>
 * Delete booking using unique id <br>
-
+<br>
 
 ## 3. Project Structure
 
 ***The structure of the project can be seen below***
-<br>
 
 <details>
 <summary>Click to see project structure</summary>
@@ -60,7 +59,6 @@ An ERD model was created for the project which incorporates all of the attribute
 
 As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases. <br>
 
-<br>
 
 <details>
 <summary>Click for the direct Postman requests</summary>
@@ -83,7 +81,6 @@ shorturl.at/suwRT
 
 The CRUD operations carried out for the Customer database can be seen below. Expand each of the operations to see snapshots of the functions in action.<br>
 
-<br>
 
 #### Create/Add a new customer <br> 
 <details>
@@ -132,7 +129,6 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 
 The CRUD operations carried out for the Booking database can be seen below. Expand each of the operations to see snapshots of the functions in action.<br>
 
-<br>
 
 #### Create/Add a new Booking <br> 
 <details>
