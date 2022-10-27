@@ -1,12 +1,15 @@
 # Gym Services Booking Application
-## Mohammed Owais Ghafoor
+####Mohammed Owais Ghafoor
 
 ### 1. Project Introduction
-The Gym Services Booking Application allows for different customers to create multiple bookings for gym services. It utilises CRUD functionality where 
-the 'customer' has a one-to-many relationship with 'Booking'. <br>
+
+The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br>
+This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT).<br>
+It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'.<br>
+This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
-## 2. Application Features
+### 2. Application Features
 
 ***Customer***
 
@@ -26,10 +29,17 @@ the 'customer' has a one-to-many relationship with 'Booking'. <br>
 * read all booking information for a specific type of booking <br>
 * read all booking information <br>
 
-## 3. Project Structure
+### 3. Project Structure
 
 ***The structure of the project can be seen below***
+<br>
 <p align="center">
 <img width="650" src=imgs/Project-Structure.jpg>
 </p>
 
+### 4. Database Structure - ERD
+
+<br>
+<p align="center">
+<img width="650" src=imgs/Database-Diagram.jpg>
+</p>
