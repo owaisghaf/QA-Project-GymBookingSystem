@@ -16,6 +16,9 @@ import javax.validation.constraints.Size;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -56,6 +59,8 @@ public class Customer {
     
     @OneToMany(mappedBy = "customer", fetch = FetchType.EAGER)
     @OnDelete(action = OnDeleteAction.CASCADE)
+    //@JsonManagedReference
+    @JsonIgnore
     private List<Booking> booking = new ArrayList<>();
 
 	public Long getId() {
