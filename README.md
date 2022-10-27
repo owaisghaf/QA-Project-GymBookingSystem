@@ -43,9 +43,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 ## 4. Database Structure - ERD Model
 
-<details>
-<summary>"Click to expand"</summary>
-</details>
+An ERD model was created for the project which incorporates all of the attributes for both the Customer and Booking classes. It demonstrates visually the one to many relationship between Customer and Booking, outlining the primary keys and unique values.<br>
 
 <details>
 <summary>Click to see Database structure</summary>
