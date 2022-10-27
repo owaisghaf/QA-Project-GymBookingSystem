@@ -62,16 +62,45 @@ shorturl.at/suwRT
 </details>
 
 ***Customer Database***
+<br> 
+<br> 
+##### Create/Add a new customer <br> 
+<details>
+<summary>Click for the direct Postman requests</summary>
+<img width="600" src=imgs/Customer-CreateAdd.jpg>
+</details>
 
-##### Create/Add a new customer <br> <img width="600" src=imgs/Customer-CreateAdd.jpg>
-##### Read a specific customer's information using their unique id <br> <img width="600" src=imgs/Customer-ReadByID.jpg>
-##### Read a specific customer's information using their name <br> <img width="600" src=imgs/Customer-ReadByName.jpg>
-##### Read all customer information <br> <img width="600" src=imgs/Customer-ReadallCustomers.jpg>
-##### Update customer information <br> <img width="600" src=imgs/Customer-Update.jpg>
-##### Delete customer information using their unique id <br> <img width="600" src=imgs/Customer-DeleteByID.jpg>
+##### Read a specific customer's information using their unique id <br> 
+<details>
+<summary>Click for an image of the execuation</summary>
+<img width="600" src=imgs/Customer-ReadByID.jpg>
+</details>
+##### Read a specific customer's information using their name <br> 
+<details>
+<summary>Click for an image of the execuation</summary>
+<img width="600" src=imgs/Customer-ReadByName.jpg>
+</details>
+##### Read all customer information <br> 
+<details>
+<summary>Click for an image of the execuation</summary>
+<img width="600" src=imgs/Customer-ReadallCustomers.jpg>
+</details>
+##### Update customer information <br> 
+<details>
+<summary>Click for an image of the execuation</summary>
+<img width="600" src=imgs/Customer-Update.jpg>
+</details>
+##### Delete customer information using their unique id <br> 
+<details>
+<summary>Click for an image of the execuation</summary>
+<img width="600" src=imgs/Customer-DeleteByID.jpg>
+</details>
 
+<br> 
+<br> 
 ***Booking Database***
-
+<br> 
+<br> 
 ##### Create/Add a new Booking <br> <img width="600" src=imgs/Booking-CreateAdd.jpg>
 ##### Read Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-ReadByID.jpg>
 ##### Read Booking information using the booking type <br> <img width="600" src=imgs/Booking-ReadByType.jpg>
