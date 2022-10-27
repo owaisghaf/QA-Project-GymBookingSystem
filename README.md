@@ -65,13 +65,7 @@ An ERD model was created for the project which incorporates all of the attribute
 
 As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases. <br>
 
-
-<details>
-<summary>Click for the direct Postman requests</summary>
-
 Click to access the [Postman requests](shorturl.at/suwRT)
-
-</details>
 
 
 <details>
