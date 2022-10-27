@@ -86,7 +86,7 @@ Click to access the [Postman requests](https://www.postman.com/lively-shadow-848
 <details>
 <summary>Alternatively click to see a picture of the Postman requests</summary>
 <br>
-<img width="550" src=imgs/AllRequests.jpg>
+<img width="450" src=imgs/AllRequests.jpg>
 
 </details>
 
@@ -203,7 +203,6 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 ## 6. Testing
 
 #### Customer: Service layer unit tests <br> 
-
 All unit tests were completed and passed for the customer service layer.
 
 <details>
@@ -213,7 +212,6 @@ All unit tests were completed and passed for the customer service layer.
 </details>
 
 #### Booking: Service layer unit tests <br> 
-
 All unit tests were completed and passed for the booking service layer.
 
 <details>
@@ -222,20 +220,22 @@ All unit tests were completed and passed for the booking service layer.
 <img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
 </details>
 
-#### Booking Controller integration test <br>
+#### Customer Controller integration test <br>
+Customer Controller integration tests were attempted however failed. Scope for improvement as it is most likely due to incorrect code as all manual HTTPs requests work.
 
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=[------------------------------]> <br>
+<img width = 550 src=imgs/CustomerServiceUnitTest.jpg> <br>
 </details>
 
-#### Customer Controller integration test <br>
+#### Booking Controller integration test <br>
+Booking Controller integration tests were attempted however failed. Scope for improvement as it is most likely due to incorrect code as all manual HTTPs requests work.
 
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=[------------------------------]> <br>
+<img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
 </details>
 
 <br>

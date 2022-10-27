@@ -40,9 +40,9 @@ public class BookingControllerIntegrationTest {
 	@Autowired
 	private ObjectMapper mapper;
 
-	private final Booking TEST_BOOKING = new Booking(1L, "PT","27/10/2022","12:00",60,"Ghaf", null);
+	private final Booking TEST_BOOKING = new Booking(null, "PT","27/10/2022","12:00",60,"Ghaf", null);
 
-	private final Booking TEST_SAVED_BOOKING = new Booking(null,"PT","27/10/2022","12:00",60,"Ghaf", null);
+	private final Booking TEST_SAVED_BOOKING = new Booking(1L,"PT","27/10/2022","12:00",60,"Ghaf", null);
 
 	@Test
 	public void testCreate() throws JsonProcessingException, Exception {

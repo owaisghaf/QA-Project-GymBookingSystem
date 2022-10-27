@@ -26,7 +26,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.example.persistence.domain.Booking;
 import com.example.persistence.domain.Customer;
 
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
