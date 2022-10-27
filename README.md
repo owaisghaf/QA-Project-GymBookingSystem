@@ -226,7 +226,7 @@ Customer Controller integration tests were attempted however failed. Scope for i
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=imgs/CustomerServiceUnitTest.jpg> <br>
+<img width = 550 src=imgs/CustomerControllerIntegrationTest.jpg> <br>
 </details>
 
 #### Booking Controller integration test <br>
@@ -235,7 +235,7 @@ Booking Controller integration tests were attempted however failed. Scope for im
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
+<img width = 550 src=imgs/BookingControllerIntegrationTest.jpg> <br>
 </details>
 
 <br>
