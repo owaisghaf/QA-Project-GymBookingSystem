@@ -3,8 +3,7 @@
 
 ### 1. Project Introduction
 
-The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br>
-This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
+The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br> This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
 This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
@@ -13,20 +12,22 @@ This will allow the gym itself to access the database and Create, Read, Update o
 ***Customer***
 
 * Create/add new customer <br>
-* update customer information <br>
-* delete customer using unique id <br>
 * read a specific customer's information using a unique id <br>
 * read a specific customer's information using their name <br>
 * read all customer information <br>
+* update customer information <br>
+* delete customer using unique id <br>
+
 
 ***Booking***
 
 * Create/add new booking <br>
-* update booking information <br>
-* delete booking using unique id <br>
 * read a specific booking's information using a unique id <br>
 * read all booking information for a specific type of booking <br>
 * read all booking information <br>
+* update booking information <br>
+* delete booking using unique id <br>
+
 
 ### 3. Project Structure
 
@@ -59,4 +60,22 @@ As outlined previously in section 2 a number of features are available within th
 shorturl.at/suwRT
 
 </details>
+
+***Customer Database***
+
+##### Create/Add a new customer <br> <img width="600" src=imgs/Customer-CreateAdd.jpg>
+##### Read a specific customer's information using their unique id <br> <img width="600" src=imgs/Customer-ReadById.jpg>
+##### Read a specific customer's information using their name <br> <img width="600" src=imgs/Customer-ReadByName.jpg>
+##### Read all customer information <br> <img width="600" src=imgs/Customer-ReadAllCustomers.jpg>
+##### Update customer information <br> <img width="600" src=imgs/Customer-Update.jpg>
+##### Delete customer information using their unique id <br> <img width="600" src=imgs/Customer-DeleteById.jpg>
+
+***Booking Database***
+
+##### Create/Add a new Booking <br> <img width="600" src=imgs/Booking-CreateAdd.jpg>
+##### Read Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-ReadById.jpg>
+##### Read Booking information using the booking type <br> <img width="600" src=imgs/Booking-ReadByType.jpg>
+##### Read all Booking information <br> <img width="600" src=imgs/Booking-ReadAllBookings.jpg>
+##### Update Booking information <br> <img width="600" src=imgs/Booking-Update.jpg>
+##### Delete Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-DeleteById.jpg>
 
