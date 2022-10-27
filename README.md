@@ -3,8 +3,10 @@
 
 ## 1. Project Introduction
 
-The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br> This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
-This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
+
+The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym such as: PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT).
+This is a Back-End system which was created using Spring Boot.  This system can be linked to a Front-End interface in order to make API calls to customer and booking databases, allowing for a more efficient and simplified user experience.  
+It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
 ## 2. Application Features
@@ -153,12 +155,18 @@ shorturl.at/suwRT
 ## 6. Testing
 
 #### Customer: Service layer unit tests <br> 
+
+All unit tests were completed and passed for the customer service layer.
+
 <details>
 <summary>Click for an image of the execution</summary>
 <img width = 550 src=imgs/CustomerServiceUnitTest.jpg> <br>
 </details>
 
 #### Booking: Service layer unit tests <br> 
+
+All unit tests were completed and passed for the booking service layer.
+
 <details>
 <summary>Click for an image of the execution</summary>
 <img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
