@@ -1,5 +1,5 @@
 # Gym Services Booking Application
-### Mohammed Owais Ghafoor
+### Created by Mohammed Owais Ghafoor
 
 ### 1. Project Introduction
 
@@ -54,7 +54,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. These have all been tested to work perfectly with results shown below.
 
 <details>
-<summary>"Click to access direct Postman requests"</summary>
+<summary>Click for the direct Postman requests</summary>
 
 shorturl.at/suwRT
 
