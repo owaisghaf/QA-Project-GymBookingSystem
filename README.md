@@ -64,18 +64,18 @@ shorturl.at/suwRT
 ***Customer Database***
 
 ##### Create/Add a new customer <br> <img width="600" src=imgs/Customer-CreateAdd.jpg>
-##### Read a specific customer's information using their unique id <br> <img width="600" src=imgs/Customer-ReadById.jpg>
+##### Read a specific customer's information using their unique id <br> <img width="600" src=imgs/Customer-ReadByID.jpg>
 ##### Read a specific customer's information using their name <br> <img width="600" src=imgs/Customer-ReadByName.jpg>
-##### Read all customer information <br> <img width="600" src=imgs/Customer-ReadAllCustomers.jpg>
+##### Read all customer information <br> <img width="600" src=imgs/Customer-ReadallCustomers.jpg>
 ##### Update customer information <br> <img width="600" src=imgs/Customer-Update.jpg>
-##### Delete customer information using their unique id <br> <img width="600" src=imgs/Customer-DeleteById.jpg>
+##### Delete customer information using their unique id <br> <img width="600" src=imgs/Customer-DeleteByID.jpg>
 
 ***Booking Database***
 
 ##### Create/Add a new Booking <br> <img width="600" src=imgs/Booking-CreateAdd.jpg>
-##### Read Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-ReadById.jpg>
+##### Read Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-ReadByID.jpg>
 ##### Read Booking information using the booking type <br> <img width="600" src=imgs/Booking-ReadByType.jpg>
 ##### Read all Booking information <br> <img width="600" src=imgs/Booking-ReadAllBookings.jpg>
 ##### Update Booking information <br> <img width="600" src=imgs/Booking-Update.jpg>
-##### Delete Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-DeleteById.jpg>
+##### Delete Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-DeleteByID.jpg>
 
