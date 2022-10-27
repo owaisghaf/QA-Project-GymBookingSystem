@@ -1,11 +1,11 @@
 # Gym Services Booking Application
-####Mohammed Owais Ghafoor
+#### Mohammed Owais Ghafoor
 
 ### 1. Project Introduction
 
 The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br>
-This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT).<br>
-It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'.<br>
+This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT).
+It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'.
 This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
@@ -39,7 +39,13 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 ### 4. Database Structure - ERD
 
+<details>
+<summary>"Click to expand"</summary>
+this is hidden
+</details>
+
 <br>
 <p align="center">
 <img width="650" src=imgs/Database-Diagram.jpg>
 </p>
+
