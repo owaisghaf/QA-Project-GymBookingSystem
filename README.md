@@ -37,19 +37,25 @@ Both a descriptive and visual representative of the project structure can be see
 
 1. Entities were created for both Customer and Bookings as data will need to be inputted, read, updated and deleted from the subsequent tables represented by the two classes.<br>
 [Booking.java & Customer.Java]
+
 2. Controllers were then created for both in order for the user to access the Spring application externally via HTTP requests. This will later be accessed and implemented by other classes.<br>
 [BookingController.java & CustomerController.Java]
+
 3. Services essentially contain the main logic of a Spring boot application and in this case it takes the relevant CRUD functionality contained in the controllers and implements that logic.<br>
 [BookingService.java & CustomerService.Java]
+
 4. Repositories provide the methods in order for the program to interact with the Customer and Booking databases.<br>
 [BookingRepository.java & CustomerRepository.Java]
+
 5. Data Transfer Objects (DTO) were created for both in order to create a set structure for the data which is provided by the API for both customers and bookings.<br>
 [BookingDTO.java & CustomerDTO.Java]
+
 6. Custom Exceptions were created for both customer and booking which will throw an exception whenever a customer or booking that doesn't exist is attempted to be accessed.<br>
 [BookingNotFoundException.java & CustomerNotFoundException.Java]
 
 <details>
 <summary>Click to see project structure</summary>
+<br>
 <p align="center">
 <img width="550" src=imgs/Project-Structure.jpg>
 </p>
@@ -79,7 +85,7 @@ Click to access the [Postman requests](https://www.postman.com/lively-shadow-848
 
 <details>
 <summary>Alternatively click to see a picture of the Postman requests</summary>
-
+<br>
 <img width="550" src=imgs/AllRequests.jpg>
 
 </details>
@@ -94,6 +100,7 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 #### Create/Add a new customer <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Customer-CreateAdd.jpg>
 </details>
 
@@ -101,6 +108,7 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 #### Read a specific customer's information using their unique id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Customer-ReadByID.jpg>
 </details>
 
@@ -108,6 +116,7 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 #### Read a specific customer's information using their name <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Customer-ReadByName.jpg>
 </details>
 
@@ -115,6 +124,7 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 #### Read all customer information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Customer-ReadallCustomers.jpg>
 </details>
 
@@ -122,6 +132,7 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 #### Update customer information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Customer-Update.jpg>
 </details>
 
@@ -129,6 +140,7 @@ The CRUD operations carried out for the Customer database can be seen below. Exp
 #### Delete customer information using their unique id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Customer-DeleteByID.jpg>
 </details>
 
@@ -142,6 +154,7 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 #### Create/Add a new Booking <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Booking-CreateAdd.jpg>
 </details>
 
@@ -149,6 +162,7 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 #### Read Booking information using the unique booking id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Booking-ReadByID.jpg>
 </details>
 
@@ -156,6 +170,7 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 #### Read Booking information using the booking type <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Booking-ReadByType.jpg>
 </details>
 
@@ -163,6 +178,7 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 #### Read all Booking information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Booking-ReadAllBookings.jpg>
 </details>
 
@@ -170,6 +186,7 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 #### Update Booking information <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Booking-Update.jpg>
 </details>
 
@@ -177,6 +194,7 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 #### Delete Booking information using the unique booking id <br> 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width="550" src=imgs/Booking-DeleteByID.jpg>
 </details>
 
@@ -190,6 +208,7 @@ All unit tests were completed and passed for the customer service layer.
 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width = 550 src=imgs/CustomerServiceUnitTest.jpg> <br>
 </details>
 
@@ -199,6 +218,7 @@ All unit tests were completed and passed for the booking service layer.
 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
 </details>
 
@@ -206,6 +226,7 @@ All unit tests were completed and passed for the booking service layer.
 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width = 550 src=[------------------------------]> <br>
 </details>
 
@@ -213,6 +234,7 @@ All unit tests were completed and passed for the booking service layer.
 
 <details>
 <summary>Click for an image of the execution</summary>
+<br>
 <img width = 550 src=[------------------------------]> <br>
 </details>
 
