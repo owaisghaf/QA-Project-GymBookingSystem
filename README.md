@@ -3,8 +3,8 @@
 
 ## 1. Project Introduction
 
-***The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br> This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
-This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.***<br>
+The purpose of this application is to allow for multiple customers to create bookings for different services and classes at the gym.<br> This includes PT sessions, Swimming, Boxing and High Intensity Interval Training (HIIT). It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. 
+This will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
 ## 2. Application Features
@@ -149,13 +149,13 @@ shorturl.at/suwRT
 
 ## 6. Testing
 
-#### Service layer unit tests: User <br> 
+#### Service layer unit tests: Customer <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width = 600 src=[------------------------------]> <br>
 </details>
 
-#### Service layer unit tests: Account <br> 
+#### Service layer unit tests: Booking <br> 
 <details>
 <summary>Click for an image of the execution</summary>
 <img width = 600 src=[------------------------------]> <br>
