@@ -52,7 +52,7 @@ This will allow the gym itself to access the database and Create, Read, Update o
 
 ## 5. CRUD Execution
 
-As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. These have all been tested to work perfectly with results shown below.
+As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases.
 
 <details>
 <summary>Click for the direct Postman requests</summary>
@@ -62,7 +62,8 @@ shorturl.at/suwRT
 </details>
 
 ### Customer Database
-<br> 
+
+The CRUD operations carried out for the Customer database can be seen below. Expand each of the operations to see snapshots of the functions in action<br>
 
 #### Create/Add a new customer <br> 
 <details>
@@ -104,12 +105,41 @@ shorturl.at/suwRT
 
 ### Booking Database
 
-<br> 
+The CRUD operations carried out for the Booking database can be seen below. Expand each of the operations to see snapshots of the functions in action<br>
 
-##### Create/Add a new Booking <br> <img width="600" src=imgs/Booking-CreateAdd.jpg>
-##### Read Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-ReadByID.jpg>
-##### Read Booking information using the booking type <br> <img width="600" src=imgs/Booking-ReadByType.jpg>
-##### Read all Booking information <br> <img width="600" src=imgs/Booking-ReadAllBookings.jpg>
-##### Update Booking information <br> <img width="600" src=imgs/Booking-Update.jpg>
-##### Delete Booking information using the unique booking id <br> <img width="600" src=imgs/Booking-DeleteByID.jpg>
+#### Create/Add a new Booking <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width="600" src=imgs/Booking-CreateAdd.jpg>
+</details>
+
+#### Read Booking information using the unique booking id <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width="600" src=imgs/Booking-ReadByID.jpg>
+</details>
+
+#### Read Booking information using the booking type <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width="600" src=imgs/Booking-ReadByType.jpg>
+</details>
+
+#### Read all Booking information <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width="600" src=imgs/Booking-ReadAllBookings.jpg>
+</details>
+
+#### Update Booking information <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width="600" src=imgs/Booking-Update.jpg>
+</details>
+
+#### Delete Booking information using the unique booking id <br> 
+<details>
+<summary>Click for an image of the execution</summary>
+<img width="600" src=imgs/Booking-DeleteByID.jpg>
+</details>
 
