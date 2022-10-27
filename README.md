@@ -84,6 +84,7 @@ An ERD model was created for the project which incorporates all of the attribute
 (These ports can all be configured in the application properties file located in src/main/resources/application.properties)
 * Always run the project as a Spring Boot App
 * The HTTP requests (CRUD functionality) can now be created and communicated to the database. One way to do this is through the Postman API. <br>
+
 Examples are shown below.
 
 ## 6. CRUD Execution
