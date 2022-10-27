@@ -86,7 +86,7 @@ An ERD model was created for the project which incorporates all of the attribute
 * The HTTP requests (CRUD functionality) can now be created and communicated to the database. One way to do this is through the Postman API. <br>
 Examples are shown below.
 
-## 5. CRUD Execution
+## 6. CRUD Execution
 
 As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases. <br>
 
@@ -210,7 +210,7 @@ The CRUD operations carried out for the Booking database can be seen below. Expa
 
 <br>
 
-## 6. Testing
+## 7. Testing
 
 #### Customer: Service layer unit tests <br> 
 All unit tests were completed and passed for the customer service layer.
@@ -250,7 +250,7 @@ Booking Controller integration tests were attempted however failed. Scope for im
 
 <br>
 
-## 7. Tools Utilised
+## 8. Tools Utilised
 
 * Java 8.0 <br>
 * Spring Boot 2.7.0 <br>
@@ -262,6 +262,16 @@ Booking Controller integration tests were attempted however failed. Scope for im
 
 <br>
 
-## 8. Reflection and Future Outlook
+## 9. Reflection and Future Outlook
 
+Upon reflection, I can say that it took some time to fully understand object-oriented programming principles as well as how and when to use different methods, both in built and user created. This was expected given this is my first ever Java project and the first time learning Java. 
+A lot of time was spent more so around trying to understand how to properly structure the code and solving errors. However, this got easier and easier the more the project progressed.
 
+Changes are needed on the Controller Integration testing code as I know it is not the application that is causing this due to all manual HTTP requests functioning without issues. Therefore, I will attempt to put in more time to understand why (maybe its something small as it usually is) and rectify the issue.  
+
+There is definitely a lot of scope for improvement and expansion of the application to incorporate additional features. Some of these are: <br>
+
+* Incorporate a Membership Entity which will allow for customers to create gym memberships of different types and durations, seperate from classes and sessions.
+* Incorporate a payment gateway through which customer payment details can be stored and used to conduct payment of memberships and other services. This payment gateway would link with the customer, booking and membership entities.
+* Build a Front-End interface which would allow for a more interative, efficient and simplified user/customer experience.
+* Incorporate employees as an Entity and tie this to the membership and services data. This will allow for in house bookings and membership creations to be linked to employees providing data points which can be audited and analysed for use with things like performance management and security purposes. 
