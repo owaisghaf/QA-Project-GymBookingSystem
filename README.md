@@ -228,20 +228,20 @@ All unit tests were completed and passed for the booking service layer.
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
+<img width = 550 src=imgs/BookingControllerInitialisationTest.jpg> <br>
 </details>
 
-#### Customer Controller integration test <br>
-Customer Controller integration tests were attempted however failed. Scope for improvement as it is most likely due to incorrect code as all manual HTTPs requests work.
+#### Customer Controller Initialisation test <br>
+Customer rest controller initialisation tests were completed and passed without issues.
 
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=imgs/CustomerControllerIntegrationTest.jpg> <br>
+<img width = 550 src=imgs/CustomerControllerInitialisationTest.jpg> <br>
 </details>
 
-#### Booking Controller integration test <br>
-Booking Controller integration tests were attempted however failed. Scope for improvement as it is most likely due to incorrect code as all manual HTTPs requests work.
+#### Booking Controller Initialisation test <br>
+Booking rest controller initialisation tests were completed and passed without issues.
 
 <details>
 <summary>Click for an image of the execution</summary>
