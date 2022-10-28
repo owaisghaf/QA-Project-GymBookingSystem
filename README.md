@@ -228,7 +228,7 @@ All unit tests were completed and passed for the booking service layer.
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=imgs/BookingControllerInitialisationTest.jpg> <br>
+<img width = 550 src=imgs/BookingServiceUnitTest.jpg> <br>
 </details>
 
 #### Customer Controller Initialisation test <br>
@@ -246,7 +246,7 @@ Booking rest controller initialisation tests were completed and passed without i
 <details>
 <summary>Click for an image of the execution</summary>
 <br>
-<img width = 550 src=imgs/BookingControllerIntegrationTest.jpg> <br>
+<img width = 550 src=imgs/BookingControllerInitialisationTest.jpg> <br>
 </details>
 
 <br>
