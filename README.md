@@ -253,13 +253,13 @@ Booking rest controller initialisation tests were completed and passed without i
 
 ## 8. Tools Utilised
 
-* Java 8.0 <br>
-* Spring Boot 2.7.0 <br>
-* MySQL 8.0.30 <br>
-* Maven 4.0.0 <br>
-* Postman 10.0.38 <br>
-* Github <br>
-* Git Bash <br>
+* ```Java 8.0``` <br>
+* ```Spring Boot 2.7.0``` <br>
+* ```MySQL 8.0.30``` <br>
+* ```Maven 4.0.0``` <br>
+* ```Postman 10.0.38``` <br>
+* ```Github``` <br>
+* ```Git Bash``` <br>
 
 <br>
 
