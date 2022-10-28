@@ -9,7 +9,7 @@ This is a Back-End system which was created using Spring Boot.  This system can 
 It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. This aplication will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
-## 2. Application Features <span style="color:blue">some *blue* text</span>
+## 2. Application Features
 
 #### Customer
 
@@ -91,7 +91,7 @@ Examples are shown below.
 
 As outlined previously in section 2 a number of features are available within the application which utilise CRUD functinality. Multiple CRUD operations have been tested on both the customer and booking databases. <br>
 
-Click to access the [Postman requests](https://www.postman.com/lively-shadow-848998/workspace/3fb55edd-659f-4740-a253-ac1a1a1f087f/collection/23177939-a4ae2d59-e9cc-46c2-a124-6046c2ab5357?action=share&creator=23177939)
+Click to access the ```[Postman requests]```(https://www.postman.com/lively-shadow-848998/workspace/3fb55edd-659f-4740-a253-ac1a1a1f087f/collection/23177939-a4ae2d59-e9cc-46c2-a124-6046c2ab5357?action=share&creator=23177939)
 
 
 <details>
