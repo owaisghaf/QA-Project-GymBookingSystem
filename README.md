@@ -9,7 +9,7 @@ This is a Back-End system which was created using Spring Boot.  This system can 
 It utilises CRUD functionality where the 'customer' has a one-to-many relationship with 'Booking'. This aplication will allow the gym itself to access the database and Create, Read, Update or Delete customer and booking information when needed.<br>
 <br>
 
-## 2. Application Features
+## 2. Application Features <span style="color:blue">some *blue* text</span>
 
 #### Customer
 
